@@ -1,0 +1,17 @@
+{
+    "configurations": [
+    {
+        "type": "java",
+        "name": "Debug (Launch) - Current File",
+        "request": "launch",
+        "mainClass": "${file}"
+    },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - App",
+            "request": "launch",
+            "mainClass": "nl.thehyve.App",
+            "projectName": "token-test"
+        }
+    ]
+}
